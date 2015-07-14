@@ -10,4 +10,4 @@ def load_ipython_extension(ip):
                            "static",
                            "inkscapelayers",
                            "main.js")
-    display(Javascript(main_js))
+    display(Javascript(filename=main_js))
